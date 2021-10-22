@@ -10,7 +10,7 @@ import ru.job4j.chess.firuges.Figure;
 public class BishopBlackTest {
 
     @Test
-    public void CreateWithPositionC8() {
+    public void whenCreateWithPosition() {
         Figure instance = new BishopBlack(Cell.C8);
         assertEquals(Cell.C8, instance.position());
     }
